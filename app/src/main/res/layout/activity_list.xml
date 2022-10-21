@@ -18,20 +18,22 @@
             android:text="DoanThaiPhien\n2050531200246"
             android:textColor="@color/red"
             android:textSize="30dp" />
+
         <EditText
             android:id="@+id/edt_them"
-            android:layout_below="@+id/tv_thongtin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_thongtin"
             android:hint="Nhập tên ở đây"
             android:textSize="20dp" />
+
         <EditText
             android:id="@+id/edt_hint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mô tả"
             android:layout_below="@id/edt_them"
-            android:textSize="20dp"/>
+            android:hint="Mô tả"
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/bt_them"
