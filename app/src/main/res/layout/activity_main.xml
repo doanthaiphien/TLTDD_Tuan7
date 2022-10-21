@@ -34,8 +34,8 @@
             android:id="@+id/nameh"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Phan Quang Nhã"
             android:fontFamily="@font/atma_medium"
+            android:text="Đoàn Thái Phiên"
             android:textColor="@color/yellow"
             android:textSize="30dp" />
     </LinearLayout>
